@@ -1,0 +1,145 @@
+@import url(http://fonts.googleapis.com/css?family=Norican);
+
+/* Body
+================================================== */
+
+body {
+    overflow-x: hidden;
+    font: 17px/28px "pt-serif", "helvetica neue", "helvetica", sans-serif;
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "museo-sans", "Georgia", serif;
+    font-weight: 700;
+    color: black;
+    text-rendering: optimizeLegibility;
+}
+
+#logo {
+    font-family: 'Norican';
+    font-size: 28px;    
+    color: black;
+    vertical-align: bottom;
+}
+
+.container {
+    background: #fff;
+    min-height: 100%;
+}
+
+/* Header
+================================================== */
+
+.header {
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-family: "museo-sans", "Georgia", serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+}
+
+.header .nav {
+    text-align: right;
+    height: 0;
+}
+
+.header .nav li {
+    line-height: 3; /* Hack */
+    display: inline-block;
+}
+
+.header .nav a,
+.header .nav a:visited {
+    color: black;
+    text-transform: uppercase;
+}
+
+/* About
+================================================== */
+.about .about-header {
+    font-size: 120px;
+    line-height: 1;
+}
+
+.about
+.about-subheader,
+.about-signoff {
+    font-style:italic;
+    color: #777;
+    line-height: 2;
+}
+
+.about .about-subheader {
+    font-size: 24px;
+    line-height: 2;
+}
+
+.about .about-signoff {
+    font-size: 18px;
+    line-height: 1.25;
+}
+
+
+/* Footer
+================================================== */
+
+.footer {
+    margin-top: 100px;
+    border-top: 1px solid #ccc;
+    padding: 30px 0 30px;
+    font-family: "museo-sans", "Georgia", serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #777;
+}
+
+.footer a {
+    text-transform: uppercase;
+    color: #777;
+}
+.footer a:hover {
+    color: #000000;
+}
+.footer a:visited {
+    color: #777;
+}
+
+.offsite-links {
+    text-align: right;
+}
+
+.footer .twitter-link:hover {
+    color: #0084B4;
+}
+.footer .github-link:hover {
+    color: #000000;
+}
+.footer .instagram-link:hover {
+    color: #3F729B;
+}
+
+/* Links 
+================================================== */
+a {
+    color: #4C88C3;
+    /*color: #454596;*/
+    text-decoration: none;
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+
+a:hover {
+    color: #303069;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #600;
+    text-decoration: none;
+}
