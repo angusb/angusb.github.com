@@ -26,8 +26,6 @@ h1, h2, h3, h4, h5, h6 {
 .container {
     background: #fff;
     min-height: 100%;
-    padding-left: 80px;
-    padding-right: 80px;
 }
 
 /* Header
@@ -58,6 +56,17 @@ h1, h2, h3, h4, h5, h6 {
 .header .nav a:visited {
     color: black;
     text-transform: uppercase;
+}
+
+/* Home
+================================================== */
+.home .greeting {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.home li {
+    line-height: 28px;
 }
 
 /* About
