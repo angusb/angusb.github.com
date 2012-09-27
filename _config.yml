@@ -1,0 +1,7 @@
+auto: true
+server: true
+lsi: false
+pygments: false
+server_port: 3000
+markdown: rdiscount
+include: [about]
