@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta name="description" content="Angus Burton: Programmer, Photographer, Musician. Destination unkown."/>
+    <meta name="author" content="Angus Burton, @angusnb"/>
+    <meta content="en-us" http-equiv="Content-Language"/>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <script type="text/javascript" src="//use.typekit.net/ixl8xqp.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <!-- favicon -->
+
+    <title>Angus Burton &mdash; {{ page.title }}</title>
+    {% include analytics.html %}
+  </head>
+
+  <body>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <div class="container">
+      <div class="header">
+        <div class="row">
+          <div class="span3">
+            <a href="/"><div id="logo">Angus Burton</div></a>
+          </div>
+          <div class="span4 offset5">
+            <div class="nav">
+              <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ content }}
+      <footer class="footer">
+        <div class="row">
+            <div class="span2"><a href="">Back to top</a></div>
+            <div class="span4 offset6 offsite-links">
+              <a class="twitter-link" href="http://twitter.com/angusnb">Twitter</a> /
+              <a class="github-link" href="http://github.com/angusb">GitHub</a> / 
+              <a class="instagram-link" href="http://hashgr.am/u/angusb">Instagram</a>
+            </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
